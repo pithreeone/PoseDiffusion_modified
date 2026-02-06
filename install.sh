@@ -11,8 +11,8 @@ conda deactivate
 # Set environment variables
 export ENV_NAME=posediffusion
 export PYTHON_VERSION=3.9
-export PYTORCH_VERSION=1.13.0
-export CUDA_VERSION=11.6
+export PYTORCH_VERSION=2.1.0
+export CUDA_VERSION=12.1
 
 # Create a new conda environment and activate it
 conda create -n $ENV_NAME python=$PYTHON_VERSION
